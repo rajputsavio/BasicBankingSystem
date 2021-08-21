@@ -1,0 +1,178 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#header{
+    height: 100vh;
+    background-image: url(picture/bac.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.logo{
+    margin-top: 40px;
+    width: 150px;
+}
+.header-text{
+    max-width: 350px;
+    margin-top: 140px;
+}
+.h1{
+    font-size: 34px;
+}
+.square
+{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background-color: #c0441f;
+    margin:15px 0;
+}
+
+.button{
+    padding: 15px 40px;
+    background-color: #e65124;
+    outline:none ;
+    border: 2px solid #887cf6;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.header-text button{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.line{
+    line-height: 8px;
+}
+#sideNav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top:0;
+    background: #5e4f4f;
+    z-index: 2;
+    transition: .5s;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(203, 161, 204);
+}
+#menuBtn{
+    width: 60px;
+    position: fixed;
+    right: 45px;
+    top: 60px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.logoParent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    
+}
+
+.titlesss{
+    margin-bottom: -5px;
+    margin-left: 20px;
+    font-family: serif;
+    font-size: 52px;
+}
+
+/* FEATURES */
+
+#features{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+}
+
+.feature-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.feature-col{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 300px;
+}
+.feature-col img{
+    width: 280px;
+}
+
+.feature-col>a{
+    display: inline-block;
+}
+
+
+@media(max-width:450px){
+    .container{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    
+    #header{
+        min-height: 100vh;
+        background-image: none;
+        /* background-size: 100%;
+        background-repeat: no-repeat; */
+    }
+    
+    
+    .header-text{
+        margin-top: 60px;
+    }
+
+    #menuBtn{
+        right: 20px;
+    }
+
+    #features{
+        margin-top: -20px;
+    }
+
+    .button {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media(max-width:1000px){
+    #header{
+        background-image: none;
+        /* background-size: 100%;
+        background-repeat: no-repeat; */
+    }
+    
+}
+            
+
+
+
+
+
+

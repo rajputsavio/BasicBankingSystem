@@ -1,0 +1,87 @@
+           
+     <!DOCTYPE html>
+
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Banking System</title>
+      <meta name="viewport" content="width-device-width, initial-scale=1">
+      <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+
+<section id="header">
+            <div class="container">
+                <div class="logoParent">
+                    <div><img src="picture/lo.jpg" class="logo"></div>
+                    <div class="titlesss" >SPARKS BANK</div>
+                </div>
+
+
+
+<div class="header-text">
+                 <h1> A Penny saved</br>is a Penny Earned</h1>
+                 <span class="square"></span>
+                    
+              
+               <p> <b> Reasons why saving money is important! </b>
+<br>
+It offers peace of mind: Knowing that you have a certain amount accumulated for times of your need, 
+gives you the peace of mind. You can lead a stress-free life with the knowledge 
+that you will not have to struggle if things take an unexpected route. <br>
+
+          </p>    
+          </div>
+
+</section>
+        <nav id="sideNav">
+            <ul>
+                <li><a href="main.html">HOME</a></li>
+                <li><a href="tm.php">OUR CUSTOMERS</a></li>
+                <li><a href="history.php">TRANSACTION HISTORY</a></li>
+            </ul>
+        </nav>
+
+ <img src="picture/menu.png" id="menuBtn">
+
+<!---FEATURES--->
+<section id="features">
+    <div class="feature-row">
+        <div class="feature-col">
+            <img src="picture/c.jpg">
+           <a href="tm.php"> <button class="button" >Our Customers</button></a>
+        </div>
+        <div class="feature-col">
+            <img src="picture/tss.jpg">
+            <a href="history.php"><button class="button" >Transaction History</button></a>
+        </div>
+        
+    </div>
+    
+</section>
+<!-- FOOTER-->
+
+
+
+        <script>
+            var menuBtn=document.getElementById("menuBtn");
+            var sideNav=document.getElementById("sideNav");
+            sideNav.style.right="-250px"
+            menuBtn.onclick=function(){
+                if(sideNav.style.right=="-250px"){
+                    sideNav.style.right="0px";
+                }
+                else{
+                    sideNav.style.right="-250px";
+                }
+            }
+        </script>
+    </body>
+</html>
+
+
+
+
+
+
